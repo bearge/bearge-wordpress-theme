@@ -1,0 +1,244 @@
+/*
+Theme Name: Bearge
+Theme URI: http://oss.bearge.com/wordpress/bearge-theme
+Description: Open source bearge wordpress theme
+Author: Selim Ok
+Author URI: http://blog.bearge.com/
+*/
+@CHARSET "UTF-8";
+
+@import
+	url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700,800);
+
+body {
+	font-family: 'Open Sans', normal;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+a:link,a:visited,a:active {
+	color: #AAA;
+	text-decoration: none;
+}
+
+a:focus,a:hover {
+	color: #CCC;
+	text-decoration: none;
+}
+
+#page {
+	min-height: 100%;
+}
+
+#header {
+	background: #000;
+	color: #fff;
+	height: 70px;
+	width: 100%;
+}
+
+#header-wrapper {
+	height: 100%;
+	margin: 0 auto;
+	width: 80%;
+}
+
+#header-content {
+	height: 100%;
+	width: 100%;
+}
+
+#header-content td {
+	vertical-align: middle;
+}
+
+#sticky-header {
+	display: none;
+	height: 70px;
+	position:fixed; 
+	top:0;
+	width: 100%;
+}
+
+#sticky-header-content {
+	height: 100%;
+	width: 100%;
+}
+
+#wrapper {
+	min-height: 1200px;
+	margin: auto;
+	text-align: left;
+	width: 80%;
+}
+
+#main {
+	float: left;
+	padding: 1.5em;
+	padding-right: 3.5em;
+	width: 65%;
+}
+
+#sidebar {
+	border-radius: 0.3em;
+	float: left;
+	-moz-border-radius: 0.3em;
+    margin-bottom: 4em;
+    margin-top: 3.5em;
+    padding: 1.5em;
+	width: 20%;
+}
+
+#footer {
+	background: #000;
+	clear: both;
+	color: #fff;
+	height: 70px;
+	position: relative;
+	width: 100%;
+}
+
+#footer-wrapper {
+	height: 100%;
+	margin: 0 auto;
+	width: 60%;
+}
+
+#footer-content {
+	height: 100%;
+	width: 100%;
+}
+
+#footer-content td {
+	text-align: left;
+	font-size: 0.6em;
+	font-weight: 400;
+}
+
+.post {
+	border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+    clear: both;
+    margin-bottom: 4em;
+    margin-top: 2em;
+    padding: 1.5em;
+}
+
+.post-title h2 {
+	font-weight: 400;
+	font-size: 2.5em;
+	margin: 0 0 0.1em;
+}
+
+.post-meta {
+	font-weight: 400;
+	font-size: 0.8em;
+}
+
+.post-meta img{
+	padding-right: 0.5em;
+}
+
+.post-time {
+	float: left;
+	padding: 0.2em;
+}
+
+.post-tags {
+	float: left;
+	padding: 0.2em;
+	padding-left: 2em;
+}
+
+.post-category {
+	float: left;
+	padding: 0.2em;
+	padding-left: 2em;
+}
+
+.post-body {
+	clear: both;
+	font-weight: 400;
+	font-size: 0.9em;
+}
+
+.post-footer{
+	font-weight: 400;
+	font-size: 0.9em;
+	
+	min-height: 0.9em;
+}
+
+.post-footer-edit-link {
+	float:left;
+	text-align: left;
+}
+
+.post-footer-comments-link{
+	float:left;
+	text-align: left;
+}
+
+.post-footer-more-link {
+	text-align: right;
+}
+
+.page-navigation {
+	border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+    clear: both;
+    margin-bottom: 4em;
+    margin-top: 2em;
+    padding: 1.5em;
+    padding-bottom: 3em;
+}
+
+
+.page-navigation-next{
+	float:left;
+	text-align: left;
+	width: 50%;
+}
+
+.page-navigation-prev{
+	 float: left;
+	 text-align: right;
+	 width: 50%;
+}
+
+
+.comment-form {
+	border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+    clear: both;
+    margin-bottom: 4em;
+    margin-top: 2em;
+    padding: 1.5em;
+}
+
+
+.comments {
+	border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+    clear: both;
+    margin-bottom: 4em;
+    margin-top: 2em;
+    padding: 1.5em;
+}
+
+.sidebar-widget {
+    border: 0px !important;
+    clear: both;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-top: 1em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.sidebar-widget-title{
+	font-weight: 400;
+	font-size: 1.5em;
+}
